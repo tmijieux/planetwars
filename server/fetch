@@ -1,0 +1,33 @@
+
+
+
+
+thread
+	boucle jusqua go
+	       check la condition d'arret
+	       lie un ordre
+	       enfile l'ordre
+
+	fin boucle
+	indique qu'il a fini
+	si tout le monde a fini
+	   	l'indiquer au main
+fin thread
+
+
+
+main:
+	demarrer les threads
+	attendre que tout le monde ait fini ou la fin du temps
+	si tout le monde n'a pas fini
+	   	dire qu'il faut s'arreter
+	join les threads
+	verifier qui a fini et qui non
+	kicker ceux qui n'ont pas fini
+
+	prendre les ordres sur la queue un par un
+		verifier si un ordre est valide
+		si oui creer mettre l'ordre en place (vaisseaix plalnete source
+		+ placer la flotte au bonne endroit)
+	fin
+fin

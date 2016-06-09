@@ -31,3 +31,10 @@
 # Debug files
 *.dSYM/
 *.su
+
+
+#specific binary
+playgame
+showgame
+*.jar
+
